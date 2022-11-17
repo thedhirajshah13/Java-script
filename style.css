@@ -1,0 +1,44 @@
+body {
+  padding: 10% 3%;
+  text-align: center;
+  background-color: #905e96;
+}
+h1 {
+}
+.drum-button {
+  padding-top: 10%;
+}
+.Drum-keys {
+  height: 100px;
+  width: 100px;
+  font-size: 5rem;
+  border: 3px solid #905f;
+  border-radius: 3px;
+  margin: 5px;
+  text-align: center;
+}
+.w {
+  background-image: url("/images/crash.png");
+}
+.a {
+  background-image: url(/images/kick.png);
+}
+.s {
+  background-image: url(/images/snare.png);
+}
+.d {
+  background-image: url(/images/tom1.png);
+}
+.j {
+  background-image: url(/images/tom2.png);
+}
+.k {
+  background-image: url(/images/tom3.png);
+}
+.l {
+  background-image: url(/images/tom4.png);
+}
+.pressed{
+  opacity: 0.5;
+  color: blue;
+}
